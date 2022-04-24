@@ -1,0 +1,234 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/member/login",
+		    "style" :{
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"backgroundColor":"b1d5c8",
+				"app-plus": {
+					"titleNView": false
+				}
+		    }   
+		},
+		{
+			"path": "pages/main/index",
+			"style": {
+				"navigationBarTitleText": "%index.home%",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},{
+		    "path" : "pages/member/setting",
+		    "style" :{
+		        "navigationBarTitleText": "%sys.setting%",
+		        "enablePullDownRefresh": false,
+				"app-plus": {
+					// "titleNView": false
+				}
+		    }   
+		}, {
+			"path": "pages/main/order",
+			"style": {
+				"navigationBarTitleText": "%index.component%",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					// "titleNView": false
+				}
+			}
+		},{
+			"path": "pages/main/invest",
+			"style": {
+				"navigationBarTitleText": "%index.invest%",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/main/share",
+			"style": {
+				"navigationBarTitleText": "%index.api%",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": true
+				}
+			}
+		}, {
+			"path": "pages/main/mine",
+			"style": {
+				"navigationBarTitleText": "%index.schema%",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+        ,{
+            "path" : "pages/member/recharge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%sys.chongzhi%",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/withdrawal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%sys.tixian%",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/team",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%sys.team%",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%sys.detail%",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%sys.message%",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/findpassword",
+			"style" :
+            {
+                "navigationBarTitleText": "%sys.findpwd%",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#e8eee4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"backgroundColor":"b1d5c8",
+				"app-plus": {
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/exlink",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/messageDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%sys.msgdetail%",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/intro",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/main/intivity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%index.activity%",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/certification",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%index.tixian%",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#8F8F8F",
+		"selectedColor": "#D36724",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/main/index",
+				"text": "%index.home%",
+				"iconPath": "static/icon/home-n.png",
+				"selectedIconPath": "static/icon/home.png"
+			},
+			{
+				"pagePath": "pages/main/invest",
+				"text": "%index.dingdan%",
+				"iconPath": "static/icon/invest-n.png",
+				"selectedIconPath": "static/icon/invest.png"
+			}, 
+			{
+				"pagePath": "pages/main/intivity",
+				"text": "%index.activity%",
+				"iconPath": "./static/icon/activity-n.png",
+				"selectedIconPath": "static/icon/activity-y.png"
+			},
+			{
+				"pagePath": "pages/main/team",
+				"text": "%sys.team%",
+				"iconPath":"static/icon/team-n.png",
+				"selectedIconPath": "static/icon/team.png"
+			},
+			{
+				"pagePath": "pages/main/mine",
+				"text": "%index.schema%",
+				"iconPath":"static/icon/mine-n.png",
+				"selectedIconPath": "static/icon/my.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "TT CARD",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"app-plus":{
+			"scrollIndicator":"none" //全局 在APP页面都不显示滚动条
+		}
+	}
+}

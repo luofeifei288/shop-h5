@@ -1,0 +1,22 @@
+{
+"uni-datetime-picker.selectDate": "seleccionar fecha",
+"uni-datetime-picker.selectTime": "seleccionar hora",
+"uni-datetime-picker.selectDateTime": "seleccionar fechahora",
+"uni-datetime-picker.startDate": "fecha de inicio",
+"uni-datetime-picker.endDate": "fecha de finalización",
+"uni-datetime-picker.startTime": "hora de inicio",
+"uni-datetime-picker.endTime": "hora de finalización",
+"uni-datetime-picker.ok": "bien",
+"uni-datetime-picker.clear": "borrar",
+"uni-datetime-picker.cancel": "cancelar",
+"uni-calender.MON": "MON",
+"uni-calender.TUE": "TUE",
+"uni-calender.WED": "WED",
+"uni-calender.THU": "JUE",
+"uni-calender.FRI": "FRI",
+"uni-calender.SAT": "SAT",
+"uni-calender.SUN": "DOM",
+"sys.queren": "confirmar",
+"uni-calender.YEAR": "año",
+"uni-calender.MONTH": "mes"
+}
