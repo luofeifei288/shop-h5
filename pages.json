@@ -184,6 +184,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/activity/Invite",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"tabBar": {
 		"color": "#8F8F8F",
