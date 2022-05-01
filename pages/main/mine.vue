@@ -122,7 +122,7 @@
 						break;
 					case 'team':
 						uni.switchTab({
-							url: './team'
+							url: './../activity/Invite'
 						})
 						break;
 					case 'setting':

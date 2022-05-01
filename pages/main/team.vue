@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
-		<title-com></title-com>
-		<view class="head" style="margin-top: 112rpx;">
+		<!-- <title-com></title-com> -->
+		<view class="head">
 			<view class="one text-con">
 				<view class="lv" @click="sellv('1')">{{ $t('team.team1') }}</view>
 				<view class="nub">{{ count.typeA||0 }}</view>
@@ -80,6 +80,11 @@
 			this.getData()
 		},
 		methods:{
+			// toactivity(){
+			// 	uni.navigateTo({
+			// 		url:'../activity/Invite'
+			// 	})
+			// },
 			getData(){
 				uni.showToast({
 					title:'loading...',

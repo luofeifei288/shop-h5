@@ -88,10 +88,10 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "%sys.team%",
-                "enablePullDownRefresh": false,
-				"app-plus": {
-					"titleNView": false
-				}
+                "enablePullDownRefresh": false
+				// "app-plus": {
+				// 	"titleNView": false
+				// }
             }
             
         }
@@ -189,7 +189,10 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
             }
             
         }
@@ -218,7 +221,7 @@
 				"selectedIconPath": "static/icon/activity-y.png"
 			},
 			{
-				"pagePath": "pages/main/team",
+				"pagePath": "pages/activity/Invite",
 				"text": "%sys.team%",
 				"iconPath":"static/icon/team-n.png",
 				"selectedIconPath": "static/icon/team.png"

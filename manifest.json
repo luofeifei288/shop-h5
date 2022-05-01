@@ -62,15 +62,14 @@
         "title" : "TT CARD",
         "domain" : "",
         "devServer" : {
+            "https" : false,
             "port" : 8080,
-            "disableHostCheck" : true,
+            // "disableHostChect": true,
             "proxy" : {
-                "/" : {
-                    "target" : "http://api.trxmax.net",
-                    "changeOrigin" : true,
-                    "secure" : false,
+                "/api" : {
+                    "target" : "http://www.ttcard.co",
                     "pathRewrite" : {
-                        "^/prefix" : ""
+                        "^/api" : "/"
                     }
                 }
             }
